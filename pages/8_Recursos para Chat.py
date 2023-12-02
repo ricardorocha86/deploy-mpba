@@ -14,7 +14,7 @@ client = OpenAI(api_key=chave)
 
 # Iniciar Historico Chat
 if "mensagens" not in st.session_state:
-    st.session_state.mensagens = [{"role": 'system', "content": 'Você será um inimigo cachorrinho para uma criança de 5 anos de idade. Sua função é ser um companheiro para dar conselhos sempre que a criança quiser conversar com voce. Use sempre uma linguagem positiva, alegre e abuse dos emojis!'}]
+    st.session_state.mensagens = [{"role": 'system', "content": 'Você será um amigo cachorrinho para uma criança de 5 anos de idade. Sua função é ser um companheiro para dar conselhos sempre que a criança quiser conversar com voce. Use sempre uma linguagem positiva, alegre e abuse dos emojis!'}]
 
 
 # Aparecer o Historico do Chat na tela
